@@ -1,0 +1,40 @@
+:root {
+    --white: #FFFFFF;
+    --dark: #212121;
+    --primary: #FFC107;   
+    --secondary: #0097A7;
+    --gray: #757575;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 16px; /* 1rem = 10px*/
+    font-family: 'Krub', sans-serif;
+}
+.titulo {
+    text-align: center;
+    font-size: 3.8rem;       
+}
+.contenedor {
+    width: 120rem;
+    margin: 0 auto;
+}
+.nav-bg {
+    background-color: var(--secondary);
+}
+.nav-principal {    
+    display: flex;
+    justify-content: space-between;
+}
+.nav-principal a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+.nav-principal a:hover {
+    background-color: var(--primary);
+    color: var(--dark);
+}
